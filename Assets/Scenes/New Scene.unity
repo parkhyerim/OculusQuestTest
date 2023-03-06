@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6913337736888792056, guid: 51bdab58861fb574bb5e8466a6fa2f33, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913337736888792056, guid: 51bdab58861fb574bb5e8466a6fa2f33, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 18.186512
+      objectReference: {fileID: 0}
     - target: {fileID: 7993689038773271387, guid: 51bdab58861fb574bb5e8466a6fa2f33, type: 3}
       propertyPath: m_Name
       value: Maximilan
@@ -229,9 +237,9 @@ MonoBehaviour:
   m_Channels: 13
   m_Pose:
     BlendShapes:
-      BrowDownLeft: 0
-      BrowDownRight: 0
-      BrowInnerUp: 0
+      BrowDownLeft: 0.029281583
+      BrowDownRight: 0.02932995
+      BrowInnerUp: 0.037605103
       BrowOuterUpLeft: 0
       BrowOuterUpRight: 0
       CheekPuff: 0
@@ -239,9 +247,9 @@ MonoBehaviour:
       CheekSquintRight: 0
       EyeBlinkLeft: 0
       EyeBlinkRight: 0
-      EyeLookDownLeft: 0
-      EyeLookDownRight: 0
-      EyeLookInLeft: 0
+      EyeLookDownLeft: 0.17436211
+      EyeLookDownRight: 0.17482081
+      EyeLookInLeft: 0.009004268
       EyeLookInRight: 0
       EyeLookOutLeft: 0
       EyeLookOutRight: 0
@@ -251,40 +259,40 @@ MonoBehaviour:
       EyeSquintRight: 0
       EyeWideLeft: 0
       EyeWideRight: 0
-      JawForward: 0
+      JawForward: 0.054580744
       JawLeft: 0
-      JawOpen: 0
+      JawOpen: 0.046300273
       JawRight: 0
-      MouthClose: 0
-      MouthDimpleLeft: 0
-      MouthDimpleRight: 0
+      MouthClose: 0.012986279
+      MouthDimpleLeft: 0.034165088
+      MouthDimpleRight: 0.03791587
       MouthFrownLeft: 0
       MouthFrownRight: 0
-      MouthFunnel: 0
+      MouthFunnel: 0.030471072
       MouthLeft: 0
-      MouthLowerDownLeft: 0
-      MouthLowerDownRight: 0
+      MouthLowerDownLeft: 0.07629523
+      MouthLowerDownRight: 0.076112494
       MouthPressLeft: 0
       MouthPressRight: 0
       MouthPucker: 0
-      MouthRight: 0
-      MouthRollLower: 0
-      MouthRollUpper: 0
+      MouthRight: 0.009548002
+      MouthRollLower: 0.002823076
+      MouthRollUpper: 0.012626355
       MouthShrugLower: 0
       MouthShrugUpper: 0
-      MouthSmileLeft: 0
-      MouthSmileRight: 0
-      MouthStretchLeft: 0
-      MouthStretchRight: 0
-      MouthUpperUpLeft: 0
-      MouthUpperUpRight: 0
-      NoseSneerLeft: 0
-      NoseSneerRight: 0
+      MouthSmileLeft: 0.06647994
+      MouthSmileRight: 0.10764173
+      MouthStretchLeft: 0.094923794
+      MouthStretchRight: 0.09919782
+      MouthUpperUpLeft: 0.05394526
+      MouthUpperUpRight: 0.06673268
+      NoseSneerLeft: 0.031367898
+      NoseSneerRight: 0.037446626
       TongueOut: 0
-    HeadPosition: {x: 0, y: 0, z: 0}
-    HeadOrientation: {x: 0, y: 0, z: 0, w: 1}
-    LeftEyeOrientation: {x: 0, y: 0, z: 0, w: 1}
-    RightEyeOrientation: {x: 0, y: 0, z: 0, w: 1}
+    HeadPosition: {x: -0.04452864, y: -0.22992925, z: -0.4446643}
+    HeadOrientation: {x: -0.3974746, y: 0.046928078, z: -0.055012546, w: 0.91475976}
+    LeftEyeOrientation: {x: -0.10500284, y: 0.006870611, z: 0.0007254615, w: -0.99444795}
+    RightEyeOrientation: {x: -0.10475798, y: -0.030214947, z: -0.0031842552, w: -0.9940336}
   m_SyncPresentationOffset:
     m_FrameNumber: 0
     m_Subframe:
@@ -562,7 +570,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915352733}
   m_LocalRotation: {x: 0.058065064, y: -0, z: -0, w: 0.99831283}
-  m_LocalPosition: {x: 0, y: 1.784, z: -1.774}
+  m_LocalPosition: {x: 0, y: 1.64, z: -0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
