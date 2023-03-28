@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GrabbingScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5164e59981e3af44c8d7382f4735dccc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b575f34e265de3d49a55d0274adfcaa8, type: 2}
